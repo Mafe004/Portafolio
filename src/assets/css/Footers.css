@@ -1,0 +1,34 @@
+.custom-shape-divider-top-footer {
+    position: flex;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.container-fluid{
+    padding-right: 0;
+}
+.custom-shape-divider-top-footer svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 113px;
+}
+.custom-shape-divider-top-footer .shape-fill {
+    fill: #8a46ac;
+}
+.footerss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #8a46ac;
+    padding: 20px 0 10px;
+}
+.footerss p{
+ color: #ffffffb2;   
+}
+

@@ -1,0 +1,31 @@
+/*Custom fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* src/assets/css/App.css */
+.App {
+  text-align: center;
+}
+
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+  z-index: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+

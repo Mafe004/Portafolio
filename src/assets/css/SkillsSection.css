@@ -1,0 +1,84 @@
+:root {
+    --clr: #bc75de;
+}
+
+
+.textstil{
+    color: #8a46ac;
+}
+
+.skills-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.containerS {
+    margin-top: 10px;
+    margin-left: 12%;
+    display: grid; 
+   place-items: center;
+}
+
+.container .card {
+    color: aliceblue;
+    background-color: transparent;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #bc75de;
+    transition: box-shadow 0.3s;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.skill-card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.skill-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    font-size: 50px; 
+    color: #8a46ac;
+}
+
+.skill-title {
+    font-size: 18px; 
+    color: #bc75de; 
+}
+
+.container .card.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .card:hover {
+    color: #bc75de;
+    box-shadow: 0 0 20px 2px var(--clr); 
+    background-color:transparent;
+}
+
+.container .card .icons {
+    font-size: 35px;
+}
+
+.container .card:hover .icons {
+    color: #bc75de;
+    filter: drop-shadow(0 0 10px #bc75de); 
+}
